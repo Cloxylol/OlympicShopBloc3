@@ -1,0 +1,843 @@
+2024-09-25T08:49:24.041+02:00  WARN 19268 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h34m13s696ms73µs700ns).
+2024-09-25T09:05:51.858+02:00  INFO 19268 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:05:51.874+02:00  INFO 19268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-25T09:05:51.881+02:00  INFO 19268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-25T09:19:53.278+02:00  INFO 26528 --- [main] com.olympicshop.OlympicshopApplication   : Starting OlympicshopApplication using Java 17.0.7 with PID 26528 (C:\Users\cloep\Dev\OlympicShop\target\classes started by cloep in C:\Users\cloep\Dev\OlympicShop)
+2024-09-25T09:19:53.281+02:00  INFO 26528 --- [main] com.olympicshop.OlympicshopApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-25T09:19:53.950+02:00  INFO 26528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-25T09:19:54.022+02:00  INFO 26528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2024-09-25T09:19:54.596+02:00  INFO 26528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-25T09:19:54.610+02:00  INFO 26528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-25T09:19:54.611+02:00  INFO 26528 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-25T09:19:54.676+02:00  INFO 26528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-25T09:19:54.677+02:00  INFO 26528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2024-09-25T09:19:54.829+02:00  INFO 26528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-25T09:19:54.890+02:00  INFO 26528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-25T09:19:54.924+02:00  INFO 26528 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-25T09:19:55.216+02:00  INFO 26528 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-25T09:19:55.241+02:00  INFO 26528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-25T09:19:55.394+02:00  INFO 26528 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17c53dfb
+2024-09-25T09:19:55.395+02:00  INFO 26528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-25T09:19:55.435+02:00  WARN 26528 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-25T09:19:56.437+02:00  INFO 26528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-25T09:19:56.562+02:00  INFO 26528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:19:56.963+02:00  WARN 26528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-25T09:19:56.982+02:00  INFO 26528 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-09-25T09:19:57.045+02:00  INFO 26528 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-25T09:19:57.107+02:00 DEBUG 26528 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2024-09-25T09:19:57.185+02:00 DEBUG 26528 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-25T09:19:57.276+02:00 DEBUG 26528 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-25T09:19:57.309+02:00 DEBUG 26528 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-25T09:19:57.426+02:00  INFO 26528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-25T09:19:57.434+02:00  INFO 26528 --- [main] com.olympicshop.OlympicshopApplication   : Started OlympicshopApplication in 4.623 seconds (process running for 5.469)
+2024-09-25T09:20:23.682+02:00  INFO 26528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-25T09:20:23.682+02:00  INFO 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-25T09:20:23.683+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-25T09:20:23.683+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-25T09:20:23.683+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-25T09:20:23.683+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b6e32ee
+2024-09-25T09:20:23.684+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@77430c79
+2024-09-25T09:20:23.684+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-25T09:20:23.684+02:00  INFO 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-25T09:20:23.708+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-25T09:20:23.721+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-25T09:20:23.721+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name [forward:], model {}
+2024-09-25T09:20:23.723+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [index.html]
+2024-09-25T09:20:23.728+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-09-25T09:20:23.728+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.738+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-09-25T09:20:23.740+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.745+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-25T09:20:23.745+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.749+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.763+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/auth.js", parameters={}
+2024-09-25T09:20:23.763+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.771+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.873+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/main.js", parameters={}
+2024-09-25T09:20:23.874+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.874+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/img/SOLO.png", parameters={}
+2024-09-25T09:20:23.874+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/img/DUO.png", parameters={}
+2024-09-25T09:20:23.874+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.874+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.876+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.886+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.887+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.889+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/img/logo-footer.png", parameters={}
+2024-09-25T09:20:23.889+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/img/FAMILLE.png", parameters={}
+2024-09-25T09:20:23.890+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.890+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.890+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/cart.js", parameters={}
+2024-09-25T09:20:23.891+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.892+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.893+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.893+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:23.896+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:20:23.896+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:20:23.896+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.896+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:23.897+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:23.897+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:23.899+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:20:23.899+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:20:23.899+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:23.899+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:23.902+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:23.902+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:23.903+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:23.903+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:23.927+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:23.927+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:23.929+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:23 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:23.929+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:23 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:23.962+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:23.962+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:25.720+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/auth.html", parameters={}
+2024-09-25T09:20:25.720+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:25.724+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:28.810+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/users/login", parameters={}
+2024-09-25T09:20:28.810+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.UserController#loginUser(LoginRequest)
+2024-09-25T09:20:28.857+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.olympicshop.util.LoginRequest@1e2bdb17]
+2024-09-25T09:20:29.186+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:29.186+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{user=UserDTO{id=27, username='cloe.petetin@gmail.com'}, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbG9l (truncated)...]
+2024-09-25T09:20:29.193+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:29.214+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
+2024-09-25T09:20:29.214+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:29.216+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:29.236+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:20:29.237+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:29.238+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:29.238+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:20:29.238+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:20:29.238+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:29.238+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:29.239+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:29.239+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:29.239+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:20:29.239+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:29.239+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:29 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:29.240+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:29.241+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:29 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:29.241+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:29.260+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:29.261+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:29.303+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:29.304+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@7d6827bb]
+2024-09-25T09:20:29.322+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.765+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/buy-tickets.html", parameters={}
+2024-09-25T09:20:31.765+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:31.768+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.787+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/buy-tickets.js", parameters={}
+2024-09-25T09:20:31.787+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:31.789+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/FAMILY", parameters={}
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/DUO", parameters={}
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/SOLO", parameters={}
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:20:31.825+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:31.831+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:31.831+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@76486adf]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@2c1e971c]]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@e5fcc11]]
+2024-09-25T09:20:31.832+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@4e0aa1bc, com.olympicshop.model.Offer@6f416805]]
+2024-09-25T09:20:31.833+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.833+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.833+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:31.833+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:32.646+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/cart/add?offerId=5&quantity=1", parameters={masked}
+2024-09-25T09:20:32.646+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#addToCart(Long, Long, int)
+2024-09-25T09:20:32.652+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [27]
+2024-09-25T09:20:32.697+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:32.698+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@416dd6b5]
+2024-09-25T09:20:32.699+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:34.514+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/cart.html", parameters={}
+2024-09-25T09:20:34.514+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:34.527+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:34.544+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/cart-screen.js", parameters={}
+2024-09-25T09:20:34.546+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:20:34.546+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:20:34.546+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:34.546+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:34.546+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:34.547+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:20:34.548+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:34.548+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:20:34.548+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:34.548+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:34.549+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:34.549+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:34.549+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:34 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:34.549+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:34 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:20:34.549+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:34.550+02:00 DEBUG 26528 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:34.551+02:00 DEBUG 26528 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:20:34.554+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:34.555+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:34.562+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:34.562+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@4d16154d]
+2024-09-25T09:20:34.565+02:00 DEBUG 26528 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:34.566+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:34.566+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:34.576+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:34.576+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@304daf61]
+2024-09-25T09:20:34.583+02:00 DEBUG 26528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:36.898+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/cart/update?offerId=5&quantity=2", parameters={masked}
+2024-09-25T09:20:36.899+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#updateQuantity(Long, Long, int)
+2024-09-25T09:20:36.900+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [27]
+2024-09-25T09:20:36.921+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:36.923+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@72d3dca9]
+2024-09-25T09:20:36.927+02:00 DEBUG 26528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:36.930+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:36.931+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:36.940+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:36.941+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@79649188]
+2024-09-25T09:20:36.946+02:00 DEBUG 26528 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:41.449+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:41.450+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:41.455+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:41.455+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@1ee3660e]
+2024-09-25T09:20:41.458+02:00 DEBUG 26528 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:41.459+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:20:41.459+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:20:41.461+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/bookings/create-multiple", parameters={}
+2024-09-25T09:20:41.461+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#createMultipleBookings()
+2024-09-25T09:20:41.463+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.Exception: Not Authenticated
+2024-09-25T09:20:41.464+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:41.464+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@4e5d5bc7]
+2024-09-25T09:20:41.467+02:00 DEBUG 26528 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:20:41.464+02:00 ERROR 26528 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.Exception: Not Authenticated] with root cause
+
+java.lang.Exception: Not Authenticated
+	at com.olympicshop.service.SessionService.getToken(SessionService.java:22) ~[classes/:na]
+	at com.olympicshop.controller.BookingController.createMultipleBookings(BookingController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-09-25T09:20:41.469+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2024-09-25T09:20:41.470+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:41.470+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:41.470+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/bookings/create-multiple", parameters={}
+2024-09-25T09:20:41.470+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#createMultipleBookings()
+2024-09-25T09:20:41.470+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:41 CEST 2024, status=500, error=Internal Server Error, message=Not Authe (truncated)...]
+2024-09-25T09:20:41.471+02:00 DEBUG 26528 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2024-09-25T09:20:41.471+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.Exception: Not Authenticated
+2024-09-25T09:20:41.472+02:00 ERROR 26528 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.Exception: Not Authenticated] with root cause
+
+java.lang.Exception: Not Authenticated
+	at com.olympicshop.service.SessionService.getToken(SessionService.java:22) ~[classes/:na]
+	at com.olympicshop.controller.BookingController.createMultipleBookings(BookingController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-09-25T09:20:41.474+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2024-09-25T09:20:41.474+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:20:41.474+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:20:41.474+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:20:41 CEST 2024, status=500, error=Internal Server Error, message=Not Authe (truncated)...]
+2024-09-25T09:20:41.475+02:00 DEBUG 26528 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2024-09-25T09:22:39.341+02:00  INFO 26528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:22:39.343+02:00  INFO 26528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-25T09:22:39.345+02:00  INFO 26528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-25T09:27:02.068+02:00  INFO 32204 --- [main] com.olympicshop.OlympicshopApplication   : Starting OlympicshopApplication using Java 17.0.7 with PID 32204 (C:\Users\cloep\Dev\OlympicShop\target\classes started by cloep in C:\Users\cloep\Dev\OlympicShop)
+2024-09-25T09:27:02.071+02:00  INFO 32204 --- [main] com.olympicshop.OlympicshopApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-25T09:27:02.621+02:00  INFO 32204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-25T09:27:02.692+02:00  INFO 32204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2024-09-25T09:27:03.154+02:00  INFO 32204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-25T09:27:03.164+02:00  INFO 32204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-25T09:27:03.165+02:00  INFO 32204 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-25T09:27:03.214+02:00  INFO 32204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-25T09:27:03.214+02:00  INFO 32204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
+2024-09-25T09:27:03.340+02:00  INFO 32204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-25T09:27:03.389+02:00  INFO 32204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-25T09:27:03.425+02:00  INFO 32204 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-25T09:27:03.678+02:00  INFO 32204 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-25T09:27:03.699+02:00  INFO 32204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-25T09:27:03.826+02:00  INFO 32204 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e753289
+2024-09-25T09:27:03.827+02:00  INFO 32204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-25T09:27:03.857+02:00  WARN 32204 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-25T09:27:04.766+02:00  INFO 32204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-25T09:27:04.874+02:00  INFO 32204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:27:05.233+02:00  WARN 32204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-25T09:27:05.252+02:00  INFO 32204 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-09-25T09:27:05.311+02:00  INFO 32204 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-25T09:27:05.364+02:00 DEBUG 32204 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2024-09-25T09:27:05.424+02:00 DEBUG 32204 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-25T09:27:05.529+02:00 DEBUG 32204 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-25T09:27:05.561+02:00 DEBUG 32204 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-25T09:27:05.667+02:00  INFO 32204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-25T09:27:05.675+02:00  INFO 32204 --- [main] com.olympicshop.OlympicshopApplication   : Started OlympicshopApplication in 3.992 seconds (process running for 4.588)
+2024-09-25T09:27:25.386+02:00  INFO 32204 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-25T09:27:25.386+02:00  INFO 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-25T09:27:25.386+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-25T09:27:25.386+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-25T09:27:25.387+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-25T09:27:25.387+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@642b2176
+2024-09-25T09:27:25.388+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1e9e4468
+2024-09-25T09:27:25.388+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-25T09:27:25.388+02:00  INFO 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-25T09:27:25.412+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:27:25.412+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:27:25.414+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:27:25.414+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:27:25.426+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:27:25.426+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:27:25.430+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:27:25.430+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:27:25.430+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:27:25.430+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:27:25.437+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:27:25.437+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:27:25.437+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:27:25.437+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:27:25.459+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:25.459+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:25.460+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:27:25 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:27:25.460+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:27:25 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:27:25.491+02:00 DEBUG 32204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:27:25.491+02:00 DEBUG 32204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:27:25.495+02:00 DEBUG 32204 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:27:25.495+02:00 DEBUG 32204 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:27:25.661+02:00 DEBUG 32204 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:25.661+02:00 DEBUG 32204 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@a6ab4b3]
+2024-09-25T09:27:25.690+02:00 DEBUG 32204 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:27:30.710+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:27:30.710+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:27:30.712+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:27:30.713+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:27:30.713+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:27:30.714+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:27:30.714+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:27:30.714+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:27:30.714+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:27:30.715+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:30.715+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:30.715+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:27:30 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:27:30.715+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:27:30 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:27:30.716+02:00 DEBUG 32204 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:27:30.716+02:00 DEBUG 32204 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:27:30.721+02:00 DEBUG 32204 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:27:30.721+02:00 DEBUG 32204 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:27:30.728+02:00 DEBUG 32204 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:27:30.728+02:00 DEBUG 32204 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@d955e9d]
+2024-09-25T09:27:30.732+02:00 DEBUG 32204 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:27:34.280+02:00  INFO 32204 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:27:34.282+02:00  INFO 32204 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-25T09:27:34.284+02:00  INFO 32204 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-25T09:27:41.634+02:00  INFO 29664 --- [main] com.olympicshop.OlympicshopApplication   : Starting OlympicshopApplication using Java 17.0.7 with PID 29664 (C:\Users\cloep\Dev\OlympicShop\target\classes started by cloep in C:\Users\cloep\Dev\OlympicShop)
+2024-09-25T09:27:41.638+02:00  INFO 29664 --- [main] com.olympicshop.OlympicshopApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-25T09:27:42.217+02:00  INFO 29664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-25T09:27:42.271+02:00  INFO 29664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-09-25T09:27:42.705+02:00  INFO 29664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-25T09:27:42.715+02:00  INFO 29664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-25T09:27:42.715+02:00  INFO 29664 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-25T09:27:42.761+02:00  INFO 29664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-25T09:27:42.762+02:00  INFO 29664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1086 ms
+2024-09-25T09:27:42.898+02:00  INFO 29664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-25T09:27:42.950+02:00  INFO 29664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-25T09:27:42.981+02:00  INFO 29664 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-25T09:27:43.232+02:00  INFO 29664 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-25T09:27:43.258+02:00  INFO 29664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-25T09:27:43.397+02:00  INFO 29664 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e753289
+2024-09-25T09:27:43.399+02:00  INFO 29664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-25T09:27:43.428+02:00  WARN 29664 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-25T09:27:44.424+02:00  INFO 29664 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-25T09:27:44.537+02:00  INFO 29664 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25T09:27:44.956+02:00  WARN 29664 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-25T09:27:44.993+02:00  INFO 29664 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-09-25T09:27:45.069+02:00  INFO 29664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-25T09:27:45.146+02:00 DEBUG 29664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2024-09-25T09:27:45.233+02:00 DEBUG 29664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-25T09:27:45.318+02:00 DEBUG 29664 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-25T09:27:45.354+02:00 DEBUG 29664 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-25T09:27:45.476+02:00  INFO 29664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-25T09:27:45.484+02:00  INFO 29664 --- [main] com.olympicshop.OlympicshopApplication   : Started OlympicshopApplication in 4.239 seconds (process running for 4.851)
+2024-09-25T09:28:37.607+02:00  INFO 29664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-25T09:28:37.608+02:00  INFO 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-25T09:28:37.608+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-25T09:28:37.608+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-25T09:28:37.608+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-25T09:28:37.609+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@642b2176
+2024-09-25T09:28:37.609+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1e9e4468
+2024-09-25T09:28:37.609+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-25T09:28:37.610+02:00  INFO 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-25T09:28:37.630+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-25T09:28:37.642+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-25T09:28:37.643+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name [forward:], model {}
+2024-09-25T09:28:37.644+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [index.html]
+2024-09-25T09:28:37.648+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-09-25T09:28:37.649+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.659+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-09-25T09:28:37.661+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.664+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-25T09:28:37.665+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.667+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.670+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/auth.js", parameters={}
+2024-09-25T09:28:37.671+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.676+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.771+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/main.js", parameters={}
+2024-09-25T09:28:37.772+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.772+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/img/DUO.png", parameters={}
+2024-09-25T09:28:37.772+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/img/SOLO.png", parameters={}
+2024-09-25T09:28:37.772+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.772+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.774+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.774+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.774+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.777+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/img/FAMILLE.png", parameters={}
+2024-09-25T09:28:37.777+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/img/logo-footer.png", parameters={}
+2024-09-25T09:28:37.778+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.778+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.779+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.780+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.782+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/cart.js", parameters={}
+2024-09-25T09:28:37.783+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.784+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:37.789+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:28:37.789+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:28:37.789+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.789+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:37.790+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:37.790+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:37.792+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:28:37.792+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:28:37.792+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:37.792+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:37.794+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:37.794+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:37.794+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:37.794+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:37.816+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:37.816+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:37.818+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:37 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:37.818+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:37 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:37.848+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:37.848+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:39.114+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/auth.html", parameters={}
+2024-09-25T09:28:39.115+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:39.117+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:42.283+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/users/login", parameters={}
+2024-09-25T09:28:42.283+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.UserController#loginUser(LoginRequest)
+2024-09-25T09:28:42.316+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.olympicshop.util.LoginRequest@175a340c]
+2024-09-25T09:28:42.623+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:42.624+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{user=UserDTO{id=27, username='cloe.petetin@gmail.com'}, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbG9l (truncated)...]
+2024-09-25T09:28:42.631+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:42.651+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
+2024-09-25T09:28:42.652+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:42.654+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:42.672+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:28:42.672+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:28:42.674+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:42.674+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:42.675+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:42.676+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:42.676+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:42.677+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:42.677+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:42.677+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:42.677+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:42.678+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:42 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:42.678+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:42 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:42.678+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:42.678+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:42.685+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:42.685+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:42.727+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:42.727+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@6a26c3c7]
+2024-09-25T09:28:42.745+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.356+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/buy-tickets.html", parameters={}
+2024-09-25T09:28:44.357+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:44.360+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.380+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/buy-tickets.js", parameters={}
+2024-09-25T09:28:44.381+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:44.383+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/SOLO", parameters={}
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/DUO", parameters={}
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers/type/FAMILY", parameters={}
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:28:44.422+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getOffersByType(OfferType)
+2024-09-25T09:28:44.423+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:44.423+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:44.428+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@3f4268f9]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@571c9138]]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@3c500e76]]
+2024-09-25T09:28:44.429+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Offer@4714b905, com.olympicshop.model.Offer@45d063c2]]
+2024-09-25T09:28:44.430+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.430+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.430+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:44.432+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:45.221+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/cart/add?offerId=5&quantity=1", parameters={masked}
+2024-09-25T09:28:45.221+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#addToCart(Long, Long, int)
+2024-09-25T09:28:45.227+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [27]
+2024-09-25T09:28:45.257+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:45.257+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@462b82ed]
+2024-09-25T09:28:45.260+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:49.366+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/cart/add?offerId=2&quantity=1", parameters={masked}
+2024-09-25T09:28:49.367+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#addToCart(Long, Long, int)
+2024-09-25T09:28:49.368+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [27]
+2024-09-25T09:28:49.406+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:49.406+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@7bed22b4]
+2024-09-25T09:28:49.409+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:50.922+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/cart.html", parameters={}
+2024-09-25T09:28:50.923+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:50.925+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:50.948+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/cart-screen.js", parameters={}
+2024-09-25T09:28:50.949+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:28:50.949+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:28:50.949+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:50.949+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:50.949+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:50.950+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:28:50.951+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:50.951+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:50.951+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:50 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:50.952+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:28:50 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:28:50.954+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:50.954+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:28:50.958+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:50.958+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:50.968+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:50.969+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@14292bd1]
+2024-09-25T09:28:50.975+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:50.976+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:50.976+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:50.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:50.986+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@555d613d]
+2024-09-25T09:28:50.991+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:56.038+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:56.038+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:56.045+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:56.046+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@32c949c]
+2024-09-25T09:28:56.052+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:28:56.053+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:28:56.053+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:28:56.055+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/bookings/create-multiple", parameters={}
+2024-09-25T09:28:56.055+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#createMultipleBookings()
+2024-09-25T09:28:56.059+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:28:56.059+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@14f8752a]
+2024-09-25T09:28:56.063+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:29:45.703+02:00  WARN 29664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s178ms520µs600ns).
+2024-09-25T09:29:45.705+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/bookings/create-multiple", parameters={}
+2024-09-25T09:29:45.706+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#createMultipleBookings()
+2024-09-25T09:30:06.439+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:06.439+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Booking@2dbf9976, com.olympicshop.model.Booking@973844f]]
+2024-09-25T09:30:06.449+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:07.710+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/cart/clear", parameters={}
+2024-09-25T09:30:07.711+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#clearCart(Long)
+2024-09-25T09:30:08.264+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/confirmation.html?bookings=29,30", parameters={masked}
+2024-09-25T09:30:08.267+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:08.703+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [27]
+2024-09-25T09:30:10.082+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:10.084+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.olympicshop.model.Booking@5eabf86, com.olympicshop.model.Booking@7c7eae8]]
+2024-09-25T09:30:10.089+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.090+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.095+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:10.095+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@7d1ea5fb]
+2024-09-25T09:30:10.097+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.100+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/profile.js", parameters={}
+2024-09-25T09:30:10.100+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/confirmation.js", parameters={}
+2024-09-25T09:30:10.100+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:10.100+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:10.102+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.103+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.107+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/bookings/29", parameters={}
+2024-09-25T09:30:10.107+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:30:10.107+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/bookings/30", parameters={}
+2024-09-25T09:30:10.107+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#getBookingById(Long)
+2024-09-25T09:30:10.107+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:30:10.108+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.BookingController#getBookingById(Long)
+2024-09-25T09:30:10.114+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:10.115+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@4e416ac6]
+2024-09-25T09:30:10.117+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.119+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:10.119+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:10.119+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Booking@5c7e8c3d]
+2024-09-25T09:30:10.119+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Booking@7d37ec24]
+2024-09-25T09:30:10.122+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:10.123+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:36.982+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:30:36.983+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:36.983+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:30:36.984+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:30:36.984+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:30:36.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:30:36.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:30:36.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:30:36.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:36.985+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:30:36.986+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:36.986+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:30:36.986+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:30:36 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:30:36.986+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:30:36.987+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:30:36.987+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:30:36.987+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:30:36.988+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:36.988+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:30:36 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:30:36.989+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:30:36.990+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:30:36.991+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:30:36.998+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:36.998+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@7535f23a]
+2024-09-25T09:30:37.002+02:00 DEBUG 29664 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:37.554+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/booking.js", parameters={}
+2024-09-25T09:30:37.554+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/offers.js", parameters={}
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/booking.js.]
+2024-09-25T09:30:37.555+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource js/offers.js.]
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:30:37.556+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-25T09:30:37.557+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:37.557+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:37.557+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:30:37 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:30:37.557+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Sep 25 09:30:37 CEST 2024, status=404, error=Not Found, message=No static resource js (truncated)...]
+2024-09-25T09:30:37.558+02:00 DEBUG 29664 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:30:37.558+02:00 DEBUG 29664 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-09-25T09:30:37.566+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:30:37.567+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:30:37.572+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:37.572+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@d363756]
+2024-09-25T09:30:37.575+02:00 DEBUG 29664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:38.802+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/profile.html", parameters={}
+2024-09-25T09:30:38.802+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:38.814+02:00 DEBUG 29664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:38.835+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:30:38.835+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:30:38.841+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:38.841+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@789cecf3]
+2024-09-25T09:30:38.846+02:00 DEBUG 29664 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:40.317+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/admin.html", parameters={}
+2024-09-25T09:30:40.317+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:40.330+02:00 DEBUG 29664 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:40.348+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/admin.js", parameters={}
+2024-09-25T09:30:40.348+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [static/]]
+2024-09-25T09:30:40.350+02:00 DEBUG 29664 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:40.463+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/ticket-offers", parameters={}
+2024-09-25T09:30:40.463+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/cart?userId=27", parameters={masked}
+2024-09-25T09:30:40.463+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.CartController#getCart(Long)
+2024-09-25T09:30:40.465+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.olympicshop.controller.TicketOfferController#getAllOffers()
+2024-09-25T09:30:40.469+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:40.469+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.olympicshop.model.Cart@5a91ac14]
+2024-09-25T09:30:40.470+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-25T09:30:40.470+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.olympicshop.model.Offer@2986e333, com.olympicshop.model.Offer@7bf6b44e, com.olympicshop.model.O (truncated)...]
+2024-09-25T09:30:40.471+02:00 DEBUG 29664 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-25T09:30:40.471+02:00 DEBUG 29664 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

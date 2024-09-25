@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, 
+        #FFB3A7,  /* pastel rouge */
+        #FFCBA4,  /* pastel orange */
+        #FFF2B2,  /* pastel jaune */
+        #FFFFFF,  /* blanc */
+        #E3A9C0,  /* pastel rose */
+        #C774A8,  /* pastel magenta */
+        #A95D7B   /* pastel violet */
+    );
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-color: #303d4b;
+    color: white;
+}
+
+.card img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 100%;
+    object-fit: contain;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.auth-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.display-4{
+    text-decoration: none;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    background-color: #343a40;
+    flex-shrink: 0;
+    margin-top: auto;
+}
+
+.footer img {
+    max-height: 60px; 
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    .footer .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer img {
+        margin-bottom: 0.5rem;
+    }
+
+
+
+}
